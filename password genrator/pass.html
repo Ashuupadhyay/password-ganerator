@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pass.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Password Generator</h1>
+    </div>
+    <div class="container1">
+        <form>
+        <div class="child1">
+            <label>enter passowrd length :</label>
+            <input type="number" id="num" placeholder="length">
+        </div>
+        <div class="child2">
+            <label> Atleast One Upercase Character:</label>
+            <input type="checkbox" id="uper">
+        </div>
+       <div class="child3">
+        <label>Atleast One Number:</label>
+        <input type="checkbox" id="numb">
+       </div>
+      <div class="child4">
+        <label>Atleast One Special Character:</label>
+        <input type="checkbox" id="specch">
+      </div>
+      <div class="child5">
+        <label>Atleast One Upercase,One Number,& one Special Character:</label>
+        <input type="checkbox" id="allone">
+      </div>
+      <div class="boton">
+        <input type="button" id="chi1" value="genrate" onclick="genr()">
+        <input type="text" id="output" placeholder="passowrd">
+
+      </div>
+        </form>
+    </div>
+    <script src="passowrd.js">
+          </script>
+</body>
+</html>
